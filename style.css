@@ -1,0 +1,96 @@
+body{
+    background-image: url(monopattini.jpg);
+    background-size: cover;
+}
+#container{
+    width: 930px;
+    height: 650px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #00000080;
+    border-radius: 10px;
+}
+header{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+header > div{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 200px;
+    height: 90px;
+    margin-top: 60px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#slogan{
+    color: rgb(0, 255, 0);
+    text-align: center;
+    font-family: Trebuchet MS;
+    font-size: 30px;
+    position: relative;
+    bottom: 25px;
+}
+nav{
+    width: 80%;
+    height: 40px;
+    background: rgb(0, 255, 0);
+    margin: auto;
+    align-items: center;
+    position:relative
+}
+.buttons{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+    transform: translate(-50%, -50%);
+}
+main{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.monopattino{
+    display: block;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+}
+div > h3{
+    display: inline-block;
+    height: 3px;
+}
+.position{
+    display: block;
+}
+.charge{
+    display: block;
+}
+.carica.gino{
+    display: block;
+    background-color: #FFC145;
+    width: 40%;
+    height: 25px;
+    border-radius: 5px;
+}
+.carica.mike{
+    display: block;
+    background-color: #6eef36;
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+}
+.carica.fede{
+    display: block;
+    background-color: #b82d2d;
+    width: 20%;
+    height: 25px;
+    border-radius: 5px;
+}
